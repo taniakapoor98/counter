@@ -1,0 +1,121 @@
+body,html{
+    margin:0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+}
+
+body{
+    background: linear-gradient(245.93deg, rgba(39, 135, 116, 0.758432) 2.01%, rgba(67, 22, 17, 0.858432) 80.61%);
+    background-image: url(SAP.png);
+    background-size:cover;
+    font-family: "Montserrat",sans-serif;
+    left:-20%;
+}
+.container{
+    width:100%;
+    position: absolute;
+    top: 70%;
+    left:50%;
+    transform: translate(-50%,-45%);
+    text-align: center;
+    color:white;
+}
+.container p{
+    color:#fff;
+    font-size:60px;
+    margin:0px;
+    letter-spacing: 5px;
+    padding-top: 0;
+    padding-bottom: 20px;
+    font-weight:900;
+    transform: translate(0,-12%);
+    
+}
+
+.container h2{
+    margin: 0;
+    font-size:20px;
+    font-weight: 500;
+    font-style:italic;
+
+}
+#wave{
+position: absolute;
+    width:200px;
+        top:-3%;
+    left:50%;
+    position:absolute;
+    transform:translate(-50%,-50%);
+  }
+
+.count{
+    margin: 40px 0;
+    
+}
+.countd{
+    perspective: 1000px;
+    background: linear-gradient(180deg, rgba(20, 15, 15, 0.9) 0%, rgba(17, 16, 16, 0.9) 100%),url('SAP 1.png') ;
+    transform: translate(4%,-20%);
+    display:inline-block;
+    width: 180px;
+    height:180px;
+    /*border:2px solid orangered;*/
+    margin: 0 10px;
+    font-size:30px;
+    border-radius: 50%;
+    overflow: hidden;
+    box-shadow:0 0 2px rgba(255, 255, 255, 0.65),
+     0 0 4px rgba(255, 255, 255, 0.65),
+      0 0 4px rgba(255, 255, 255, 0.65),
+       0 0 4px rgba(66, 220, 219, 0.65),
+        0 0 4px rgba(36, 220, 219, 0.65),
+         0 0 4px rgba(36, 220, 219, 0.2),
+          0 0 4px rgba(36, 220, 219, 0.2), 
+          0 0 4px rgba(36, 220, 219, 0.2),
+           0 0 4px rgba(36, 220, 219, 0.2);
+
+  /*  backdrop-filter: blur(10px);*/
+
+}
+.countd span{
+    top:50%;
+    left:80px;
+    display: block;
+    font-size:80px;
+    margin-top:14px;
+    text-shadow: 0 0 2px rgba(255, 255, 255, 0.65), 0 0 20px rgba(255, 255, 255, 0.65), 0 0 22px rgba(255, 255, 255, 0.65), 0 0 40px rgba(66, 220, 219, 0.65), 0 0 60px rgba(36, 220, 219, 0.65), 0 0 80px rgba(36, 220, 219, 0.2), 0 0 100px rgba(36, 220, 219, 0.2), 0 0 140px rgba(36, 220, 219, 0.2), 0 0 200px rgba(36, 220, 219, 0.2);
+}
+
+
+  
+  .gg {
+    position: absolute;
+    width: 780.85px;
+    height: 105.26px;
+    top: -40%;
+    left: 50%;
+    transform: translate(-50%, -20%);
+  }
+  
+  #glo {
+    top: 0;
+    margin: 0;
+    color: white;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 112px;
+    line-height: 169px;
+    letter-spacing: 0.17em;
+    animation: neonGlow 2s infinite alternate cubic-bezier(0.455, 0.03, 0.515, 0.955);
+  }
+  
+  @keyframes neonGlow {
+    0% {
+      text-shadow: 0 0 2px rgba(255, 255, 255, 0.95), 0 0 20px rgba(255, 255, 255, 0.95), 0 0 22px rgba(255, 255, 255, 0.65), 0 0 40px rgba(66, 220, 219, 0.65), 0 0 60px rgba(36, 220, 219, 0.65), 0 0 80px rgba(36, 220, 219, 0.2), 0 0 100px rgba(36, 220, 219, 0.2), 0 0 140px rgba(36, 220, 219, 0.2), 0 0 200px rgba(36, 220, 219, 0.2);
+    }
+    100% {
+      text-shadow: 0 0 2px rgba(255, 255, 255, 0.65), 0 0 8px rgba(255, 255, 255, 0.65), 0 0 10px rgba(255, 255, 255, 0.65), 0 0 20px rgba(66, 220, 219, 0.65), 0 0 30px rgba(66, 220, 219, 0.65), 0 0 40px rgba(66, 220, 219, 0.65), 0 0 50px rgba(66, 220, 219, 0.2), 0 0 80px rgba(66, 220, 219, 0.2);
+    }
+  }
+  
